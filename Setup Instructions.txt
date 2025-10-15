@@ -1,0 +1,24 @@
+Setup Instructions:
+
+Install dependencies:
+bash
+
+pip3 install -r requirements.txt
+
+Make scripts executable:
+bash
+
+chmod +x manage_attendance.sh
+chmod +x attendance_manager.py
+
+Start the web interface:
+bash
+
+./manage_attendance.sh web
+
+Or use command line tools:
+bash
+
+./manage_attendance.sh add_user "John Doe"
+./manage_attendance.sh check 1
+./manage_attendance.sh report

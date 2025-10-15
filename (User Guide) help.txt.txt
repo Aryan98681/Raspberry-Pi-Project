@@ -1,0 +1,37 @@
+ATTENDANCE SYSTEM - QUICK START GUIDE
+=====================================
+
+WHAT THIS SYSTEM DOES:
+- Tracks employee/student attendance using check-ins
+- Provides web-based viewing of attendance records
+- Allows manual attendance recording via terminal
+- Supports basic reporting functionality
+
+WEB INTERFACE:
+- Start server: ./manage_attendance.sh web
+- Main URL: http://localhost:5000
+- View different months: http://localhost:5000?month=3&year=2024
+- Green cells = attendance recorded, Gray cells = no attendance
+
+TERMINAL COMMANDS:
+./manage_attendance.sh add_user "John Doe"    # Add new user
+./manage_attendance.sh check 5               # Record check-in for user ID 5
+./manage_attendance.sh report                # View all attendance
+./manage_attendance.sh report 5              # View attendance for user ID 5
+./manage_attendance.sh clear_lcd             # Clear LCD display
+./manage_attendance.sh web                   # Start web interface
+
+DATABASE ACCESS:
+- Terminal: sudo mysql -u root -p
+- Database name: attendance_db
+- Tables: users (id, name), attendance (id, user_id, clock_in)
+
+NETWORK ACCESS:
+- Find your IP: hostname -I
+- Access from other devices: http://YOUR_IP:5000
+
+TROUBLESHOOTING:
+- Make script executable: chmod +x manage_attendance.sh
+- Install dependencies: pip3 install -r requirements.txt
+- Check database connection in attendance_manager.py
+- Ensure MySQL is running on Raspberry Pi

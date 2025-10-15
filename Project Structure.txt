@@ -1,0 +1,8 @@
+attendance_system/
+├── app.py                 # Main Flask web application
+├── attendance_manager.py  # Core management functions
+├── manage_attendance.sh   # Shell script wrapper
+├── requirements.txt       # Python dependencies
+├── templates/
+│   └── attendance.html    # Web interface template
+└── help.txt              # User guide
