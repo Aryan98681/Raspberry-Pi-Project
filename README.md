@@ -24,6 +24,7 @@ CLI Tools: Python scripts with shell script wrappers
 Platform: Cross-platform (Linux, Raspberry Pi, Windows, macOS)
 
 📋 System Capabilities
+
 ✅ Add/Manage users via command line
 
 ✅ Record attendance check-ins
