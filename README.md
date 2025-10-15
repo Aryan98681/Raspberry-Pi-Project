@@ -1,5 +1,4 @@
 Attendance System - Python Flask Edition
-Project Description
 A comprehensive attendance tracking system built with Python Flask, designed to manage and monitor employee/student attendance efficiently. This system provides both web-based and command-line interfaces for flexible usage in various environments.
 
 🚀 Key Features
@@ -38,14 +37,3 @@ Platform: Cross-platform (Linux, Raspberry Pi, Windows, macOS)
 ✅ Network accessibility for multiple devices
 
 ✅ LCD display integration (hardware-ready)
-
-🎯 Use Cases
-Corporate Offices: Employee attendance tracking
-
-Educational Institutions: Student attendance management
-
-Small Businesses: Staff time monitoring
-
-Research Labs: Participant attendance recording
-
-Any organization needing simple, effective attendance tracking
